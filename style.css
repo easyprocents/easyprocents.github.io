@@ -1,0 +1,74 @@
+
+.img1{
+	width: 120vh;
+	height: 100%;
+	display:block;
+	margin:auto;
+}
+
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 15px;
+	border: 10px black;
+}
+
+h1{
+	font-family: 'Montserrat', bold;
+	font-size: 38px;
+
+}
+
+p{
+	font-family: Montserrat;
+	font-size: 19px;
+}
+
+.drobi{
+	width: 40vh ;
+}
+
+h2{
+	font-family: 'Montserrat', bold;
+	font-size: 24px;
+
+}
+
+.zadacha2{
+	width: 90vh;
+}
+
+.procenty{
+	text-align: center;
+}
+
+h3{
+	font-family: 'Montserrat', bold;
+	font-size: 24px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	margin-left: 15%
+}
+
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Montserrat',  bold;
+
+}
+
+li a:hover {
+	background-color: whitesmoke;
+}
