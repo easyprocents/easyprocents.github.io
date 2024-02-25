@@ -1,6 +1,6 @@
 
 .img1{
-	width: 50%;
+	width: 70%;
 	height: 100%;
 	display:block;
 	margin:auto;
@@ -58,7 +58,6 @@ h3{
         padding: 0;
         list-style: none;
         display: inline-block;
-        *display:inline; /* ie7 */
 }
 .nav a {
         padding: 3px 12px;
@@ -80,61 +79,3 @@ ul{
         text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-        .nav {
-                position: relative;
-                min-height: 40px;
-        }     
-        .nav ul {
-                width: 180px;
-                padding: 5px 0;
-                position: absolute;
-                top: 0;
-                left: 0;
-                border: solid 1px #aaa;
-                background: #FAFAFA url(images/icon-menu.png) no-repeat 10px 11px;
-                border-radius: 5px;
-                box-shadow: 0 1px 2px rgba(0,0,0,.3);
-        }
-        .nav li {
-                display: none; /* скрыть все <li> пункты */
-                margin: 0;
-        }
-        .nav .current {
-                display: block; /* показывать только текущие активные <li> пункты */
-        }
-        .nav a {
-                display: block;
-                padding: 5px 5px 5px 32px;
-                text-align: left;
-        }
-        .nav .current a {
-                background: none;
-                color: #666;
-        }
- 
-        /* при наведении на пункты меню */
-        .nav ul:hover {
-                background-image: none;
-        }
-        .nav ul:hover li {
-                display: block;
-                margin: 0 0 5px;
-        }
-        .nav ul:hover .current {
-                background: url(/wp-content/uploads/images/icon-check.png) no-repeat 10px 7px;
-        }
- 
-        /* адаптивное меню справа */
-        .nav.right ul {
-                left: auto;
-                right: 0;
-        }
- 
-        /* адаптивное меню по центру */
-        .nav.center ul {
-                left: 50%;
-                margin-left: -90px;
-        }
- 
-}
