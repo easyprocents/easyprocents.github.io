@@ -1,4 +1,5 @@
 
+
 .img1{
 	width: 70%;
 	height: 100%;
@@ -9,7 +10,9 @@
 .container{
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 0 15px;	
+	padding: 0 15px;
+	-webkit-text-stroke: px #FFFFFF;
+	text-stroke: 10px #FFFFFF;
 }
 
 h1{
@@ -68,6 +71,7 @@ h3{
 }
 .nav a:hover {
         background-color: whitesmoke;
+        border-radius: 10px;
 }
 .nav .current a{
         background: #999;
@@ -79,3 +83,100 @@ ul{
         text-align: center;
 }
 
+.sosh8{
+	width: 100%;
+	float: right;
+	border-radius: 15%;
+	margin-bottom: 10px;
+}
+
+.sosh8info p{
+	text-align: center;
+}
+
+.sosh8info{
+	max-width: 80%;
+
+}
+
+.containerImg{
+	max-width: 100%;
+	float: right;
+	margin-top: 16rem;
+
+
+}
+
+.textPhoto{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.kontakt{
+	line-height: 4px;
+	font-size: 14px;
+}
+
+.info1{
+	font-size: 14px;
+}
+
+.containerInfo{
+	min-width: 250px;
+	max-width: 270px;
+	margin-right: 25px ;
+	margin-left: 25px;
+	float: right;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.history{
+	text-align: center;
+	font-size: 30px;
+}
+
+.school{
+	margin-bottom: 10px;
+	width: 300px;
+	border-radius: 15%;
+	float: left;
+	margin-right: 20px;
+}
+
+.textInfo1{
+	line-height: 19px;
+
+}
+
+.containerImg0{
+	max-width: 100%;
+	float: right;
+	margin-top: 1rem;
+}
+
+.containerInformation{
+	max-width: 100%;
+	float: right;
+	margin-top: 8rem;
+
+}
+
+.PoznSite{
+	font-size: 19px;
+}
+
+
+body{
+	background-image: url("background.png");
+	background-size: 100%;
+	background-position-y: 80px;
+	text-stroke: 100px #FFFFFF;
+	
+
+}
+
+.menu{
+	background-image: white ;
+}
